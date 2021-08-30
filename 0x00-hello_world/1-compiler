@@ -1,0 +1,3 @@
+#!/bin/bash
+cc -c $CFILE
+printf "\n"
