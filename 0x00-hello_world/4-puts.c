@@ -1,9 +1,8 @@
 /* #!/bin/bash */
 #include <stdio.h>
-/*This is the main function*/
-int main(void)
+int main(void) /*This is the main function*/
 {
-char Programming[]="\"Programming is like building a multilingual puzzle";  
+char Programming[] = "\"Programming is like building a multilingual puzzle";
 puts(Programming);
 
 return (0);
