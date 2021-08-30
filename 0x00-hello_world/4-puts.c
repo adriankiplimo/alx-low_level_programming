@@ -1,6 +1,9 @@
-/* #!/bin/bash */
 #include <stdio.h>
-int main(void) /* This is the main function */
+/* 
+ * main function prints the phrase "Programming is like building a multilingual puzzle
+ * using the puts function, returns a 0 if successful, otherwise returns non-zero
+*/
+int main(void)
 {
 char Programming[] = "\"Programming is like building a multilingual puzzle";
 puts(Programming);
