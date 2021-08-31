@@ -4,7 +4,7 @@
  * main-prints the lowercase alphabet in reverse,
  * followed by a new line,
  * only using the putchar function
- * Returns:0 if successful
+ * Return:0 if successful
  * otherwise returns non-zero
 */
 
