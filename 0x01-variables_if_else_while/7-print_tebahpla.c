@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main-prints the lowercase alphabet in reverse, 
+ * main-prints the lowercase alphabet in reverse,
  * followed by a new line,
  * only using the putchar function
  * Returns:0 if successful
@@ -11,7 +11,7 @@
 int main(void)
 {
 char rletter;
-for(rletter = 'z'; rletter >= 'a'; rletter--)
+for (rletter = 'z'; rletter >= 'a'; rletter--)
 {
 putchar(rletter);
 }
