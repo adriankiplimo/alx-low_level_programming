@@ -2,7 +2,7 @@
 
 /**
  * main - prints base10 numbers from 0-9,
- * Returns:0 if successful
+ * Return:0 if successful,
  * otherwise returns non-zero
 */
 
