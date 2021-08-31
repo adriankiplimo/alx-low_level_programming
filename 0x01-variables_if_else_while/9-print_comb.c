@@ -2,14 +2,14 @@
 
 /**
  * main-prints all possible combinations of single-digit numbers
- * Returns:0 if successful
+ * Return:0 if successful
  * otherwise returns non-zero
 */
 
 int main(void)
 {
 int num;
-for(num = 48; num < 58; num++)
+for (num = 48; num < 58; num++)
 {
 putchar(num);
 
@@ -18,7 +18,6 @@ if (num != 57)
 putchar(',');
 putchar(' ');
 }
-	
 }
 putchar('\n');
 
