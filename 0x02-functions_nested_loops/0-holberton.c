@@ -12,7 +12,7 @@ int length = 0;
 int n;
 
 /* Calculate length of the array ( Number of elements) */
-length  = sizeof(word)/sizeof(char);
+length  = sizeof(word) / sizeof(char);
 
 for (n = 0; n < length; n++)
 {
