@@ -1,6 +1,5 @@
 #include "main.h"
 
-
 /**
 * *_strcat - function that concatenates two strings
 * @dest: character pointer variable
@@ -15,7 +14,7 @@ for (i = 0; dest[i] != '\0'; i++)
 ;
 while (src[j] != '\0')
 {
-dest[i + j] = src [j];
+dest[i+j] = src[j];
 j++;
 }
 
