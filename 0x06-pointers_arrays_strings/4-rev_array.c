@@ -21,7 +21,7 @@ a[i] = a[end];
 a[end] = temp;
 /* inctement the i iterator while you decrement the end interator */
 i++;
-end--;	
+end--;
 }
 
 }
