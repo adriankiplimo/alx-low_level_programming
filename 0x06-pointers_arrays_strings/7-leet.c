@@ -15,7 +15,7 @@ i = 0;
 while (s[i] != '\0')
 {
 for (j = 0; sub[j] != '\0'; j++)
-if(s[i] == sub[j])
+if (s[i] == sub[j])
 s[i] = enc[j / 2];
 i++;
 }
