@@ -16,6 +16,6 @@ return (-1);
 else if (y == 0)
 return (1);
 
-num *= _pow_recursion(x, y-1);
+num *= _pow_recursion(x, y - 1);
 return (num);
 }
