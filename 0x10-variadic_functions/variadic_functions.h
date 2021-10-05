@@ -1,3 +1,12 @@
+#ifndef VARIADIC_FUNCTIONS_H
+#define VARIADIC_FUNCTIONS_H
+
+/*
+* Author: Adrian Kiplimo Kipkorir
+* Desc: Header file containing all prototypes
+* for functions used in 0x10-variadic_functions
+*/
+
 #include <stdarg.h>
 
 /**
@@ -21,3 +30,5 @@ void print_char(va_list arg);
 void print_int(va_list arg);
 void print_float(va_list arg);
 void print_string(va_list arg);
+
+#endif
