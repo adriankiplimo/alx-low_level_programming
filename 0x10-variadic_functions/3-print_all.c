@@ -7,7 +7,7 @@
 
 /**
 * print_char - prints a character
-* @arg: list of arguments pointing to 
+* @arg: list of arguments pointing to
 *       the character to be printed
 */
 void print_char(va_list arg)
@@ -31,7 +31,7 @@ printf("%d", num);
 
 /**
 * print_float - prints a float
-* @arg: list of arguments pointing to 
+* @arg: list of arguments pointing to
 *      the float to be printed
 */
 void print_float(va_list arg)
@@ -41,6 +41,11 @@ num = va_arg(arg, double);
 printf("%f", num);
 }
 
+/**
+* print_string - prints a string
+* @arg: list of arguments pointing to
+*      the string to be printed
+*/
 void print_string(va_list arg)
 {
 char *str;
