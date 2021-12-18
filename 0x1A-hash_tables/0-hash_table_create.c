@@ -21,7 +21,7 @@ hash_table->array = malloc(size * sizeof(hash_node_t *));
 if (hash_table->array == NULL)
 {
 free(hash_table);
-return(NULL);
+return (NULL);
 }
 
 for (i = 0; i < size; i++)
