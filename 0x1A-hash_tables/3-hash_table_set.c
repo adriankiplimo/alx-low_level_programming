@@ -36,7 +36,7 @@ return (node);
 * hash_table_set - adds an element to the hash table
 * @ht: the hash table you want to add or update the key/value to
 * @key: the key. Cannot be empty
-* @value: value associated with the key. must be duplicated. 
+* @value: value associated with the key. must be duplicated.
 *         can be an empty string
 *
 * Return: 1 if it succeeded, 0 otherwise
@@ -47,7 +47,8 @@ unsigned long int index;
 hash_node_t *hash_node, *temp;
 char *new_value;
 
-if (ht == NULL || ht->array == NULL || ht->size == 0 || key == NULL || strlen(key) == 0 || value == NULL)
+if (ht == NULL || ht->array == NULL || ht->size == 0
+|| key == NULL || strlen(key) == 0 || value == NULL)
 return (0);
 
 index = key_index((const unsigned char *)key, ht->size);
