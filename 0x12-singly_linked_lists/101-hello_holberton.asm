@@ -1,5 +1,3 @@
-
-
 ; My comments: Assembly language is interesting
 ; File: 101-hello_holberton.asm
 ; Auth: Adrian A. Kiplimo
