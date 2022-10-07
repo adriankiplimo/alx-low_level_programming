@@ -1,14 +1,13 @@
 #include "search_algos.h"
 
 /**
- *  * interpolation_search - Searches a value in a sorted array using \
- *   * an interpolation search.
- *    * @array: The array to search in.
- *     * @size: The length of the array.
- *      * @value: The value to look for.
- *       *
- *        * Return: The first index of the value in the array, otherwise -1.
- *         */
+ * interpolation_search - Searches a value in a sorted array using \
+ * an interpolation search.
+ * @array: The array to search in.
+ * @size: The length of the array.
+ * @value: The value to look for.
+ * Return: The first index of the value in the array, otherwise -1.
+ */
 int interpolation_search(int *array, size_t size, int value)
 {
 size_t low = 0, high = size - 1, pos = 0;
@@ -34,5 +33,5 @@ low = pos + 1;
 else
 high = pos - 1;
 }
-return (value == array[low] ? (int)low: -1);
+return (value == array[low] ? (int)low : -1);
 }
