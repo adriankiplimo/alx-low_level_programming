@@ -7,6 +7,7 @@
 
 /* Utility Prototypes */
 void print_array(int *array, int left, int right);
+int advanced_binary_recursive(int *array, size_t left, size_t right, int value);
 
 /* Function Prototypes */
 int linear_search(int *array, size_t size, int value);
