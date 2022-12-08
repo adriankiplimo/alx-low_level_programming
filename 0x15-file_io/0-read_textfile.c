@@ -1,9 +1,8 @@
 #include "main.h"
 #include <stdlib.h>
 
-
 /**
-* read_textfile - function that reads a text file and 
+* read_textfile - function that reads a text file and
 * prints it to the POSIX standard output
 * @filename: pointer that points to the name of the file
 * @letters: number of letters to be read and printed
