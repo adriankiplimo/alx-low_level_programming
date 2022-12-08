@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <string.h>
 
 /**
  * main - prints _putchar, followed by a new line.
@@ -8,13 +9,12 @@
 int main(void)
 {
 char word[] = "_putchar";
-int length = 0;
-int n;
+int length, i;
 
 /* Calculate length of the array ( Number of elements) */
-length  = sizeof(word) / sizeof(char);
+length  = strlen(word);
 
-for (n = 0; n < length; n++)
+for (i = 0; i < length; i++)
 {
 _putchar(word[n]);
 }
