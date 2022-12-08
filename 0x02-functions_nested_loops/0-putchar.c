@@ -16,7 +16,7 @@ length  = strlen(word);
 
 for (i = 0; i < length; i++)
 {
-_putchar(word[n]);
+_putchar(word[i]);
 }
 _putchar('\n');
 
