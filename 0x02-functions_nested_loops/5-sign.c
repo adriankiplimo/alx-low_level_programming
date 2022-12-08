@@ -3,6 +3,7 @@
 
 /**
  * print_sign- prints the sign of a number
+ * @n: interger to be tested
  * Return: 1 greater than 0, 0 is zero, -1 less than zero
  */
 int print_sign(int n)
